@@ -21,7 +21,7 @@ h2 {
 h3 {
     color: #000;
     font-family: Montserrat;
-    font-size: 40px;
+    font-size: 42px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -31,7 +31,7 @@ h3 {
 p {
     color: rgba(0, 0, 0, 0.74);
     font-family: Roboto;
-    font-size: 28px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -40,7 +40,9 @@ p {
 .wedding,
 .debut,
 .Schoolcere,
-.school-ID {
+.school-ID,
+.graduation,
+.Ordination {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,7 +67,9 @@ p {
     padding-top: 0;
 } */
 
-.wed-cont {
+.wed-cont, 
+.grad-cont,
+.ordi-cont {
     margin-left: 10%;
     margin-right: 0;
 }
@@ -85,6 +89,15 @@ p {
     align-items: center;
 }
 
+.pic-id {
+    position: relative;
+    width: 475;
+    height: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .bg {
     position: absolute;
     width: 550px;
@@ -94,11 +107,13 @@ p {
     z-index: 0;
 }
 
-.bg6 {
-    width: 484px;
-    height: 448px;
-    border-radius: 15px;
-    margin-top: 50px;
+.bg-id {
+    position: absolute;
+    width: 347px;
+    height: 387px;
+    border-radius: 30px;
+    background: #E6DEC8;
+    z-index: 0;
 }
 
 img {
@@ -114,11 +129,17 @@ img {
     display: block;
 }
 
-.img_schoolid {
-    width: 379px;
-    height: 402px;
-    aspect-ratio: 379 / 402;
-    margin-top: 55px;
+.pic-id img {
+    width: auto;
+    height: 347px;
+    border-radius: 40px;
+    object-fit: cover;
+    flex-shrink: 0;
+    line-height: 0;
+    position: relative;
+    padding: 2%;
+    z-index: 1;
+    display: block;
 }
 
 .Button {
@@ -162,16 +183,20 @@ img {
 }
 
 .wed_line,
+.grad-line,
 .debut_line,
 .schoolcere_line,
-.school-ID_line {
+.school-ID_line,
+.ordi_line {
     width: 820px;
     height: 3px;
     background: #000;
     border: none;
 }
 
-.wed_line {
+.wed_line, 
+.grad-line ,
+.ordi_line{
     margin-left: auto;
     margin-right: 70px;
 }
