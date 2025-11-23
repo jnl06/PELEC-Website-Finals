@@ -191,6 +191,119 @@ img{
     margin-right: 150px;} 
 
 /* ---------------------------------------------------------------------- */
+.graduation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.grad-cont {
+    height: 400px;
+    flex-shrink: 0;
+    color: rgba(0, 0, 0, 0.74);
+    font-family: Roboto;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    margin-left: 10%;
+    justify-content: space-between;
+}
+
+.grad-cont h2 {
+    color: #000;
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.grad-pic {
+    position: relative;
+    width: 450px;
+    height: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 500px;
+    border-radius: 40px;
+    object-fit: cover;
+    flex-shrink: 0;
+    line-height: 0;
+    position: relative;
+    padding: 2%;
+    z-index: 1;
+    display: block;
+}
+
+.grad-bg {
+    position: absolute;
+    width: 550px;
+    height: 375px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #E6DEC8;
+    z-index: 0;
+}
+
+.btn {
+    display: flex;
+    width: 160px;
+    height: 45px;
+    padding: 11px 17px;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #F5DFA8;
+    box-shadow: -9px 18px 4px 0 rgba(0, 0, 0, 0.25);
+    cursor: pointer;    
+}
+
+.btn:hover {
+    background: #F6ECD0;}
+
+.btn:active {
+    background: #9A927D;
+    transform: translateY(4px);
+    box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.25);
+}
+
+.btn {
+    color: #000;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.button {
+    display: flex;
+    gap: 50px;
+    margin-top: 20px; 
+}
+
+.graduation_line {
+    width: 1020px;
+    height: 3px;
+    background: #000;
+    margin-left: auto;
+    margin-right: 60px;
+    margin-top: 50px;
+}
+
+
+
+
+/* ---------------------------------------------------------------------- */
 
 .Schoolcere {
     display: flex;
@@ -303,3 +416,114 @@ img{
     font-weight: 200;
     line-height: normal;
     margin-right: 150px;} 
+
+    /* ------------------------------------------------------------------------------- */
+
+.idmaterials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.idmaterials-cont {
+    height: 400px;
+    flex-shrink: 0;
+    color: rgba(0, 0, 0, 0.74);
+    font-family: Roboto;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    margin-left: 10%;
+    justify-content: space-between;
+}
+
+.idmaterials-cont h2 {
+    color: #000;
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.idmaterials-pic {
+    position: relative;
+    width: 440px;
+    height: 365px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 290px;
+    border-radius: 30px;
+    object-fit: cover;
+    flex-shrink: 0;
+    line-height: 0;
+    position: relative;
+    padding: 2%;
+    z-index: 1;
+    display: block;
+}
+
+.idmaterials-bg {
+    position: absolute;
+    width: 350px;
+    height: 470px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #E6DEC8;
+    z-index: 0;
+}
+
+.btn {
+    display: flex;
+    width: 160px;
+    height: 45px;
+    padding: 11px 17px;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #F5DFA8;
+    box-shadow: -9px 18px 4px 0 rgba(0, 0, 0, 0.25);
+    cursor: pointer;    
+}
+
+.btn:hover {
+    background: #F6ECD0;}
+
+.btn:active {
+    background: #9A927D;
+    transform: translateY(4px);
+    box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.25);
+}
+
+.btn {
+    color: #000;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.button {
+    display: flex;
+    gap: 50px;
+    margin-top: 20px; 
+}
+
+/* .idmaterials_line {
+    width: 1020px;
+    height: 3px;
+    background: #000;
+    margin-left: auto;
+    margin-right: 60px;
+    margin-top: 50px;
+} */
