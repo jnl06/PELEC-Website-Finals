@@ -42,7 +42,8 @@ p {
 .Schoolcere,
 .school-ID,
 .graduation,
-.Ordination {
+.Ordination, 
+.idmaterials {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,7 +70,8 @@ p {
 
 .wed-cont, 
 .grad-cont,
-.ordi-cont {
+.ordi-cont,
+.idmaterials-cont {
     margin-left: 10%;
     margin-right: 0;
 }
