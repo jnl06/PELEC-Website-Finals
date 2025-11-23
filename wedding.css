@@ -176,7 +176,7 @@ img{
     background: #000;
     margin-left: 60px;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 80px;
 
 }
 
@@ -200,7 +200,7 @@ img{
     
 
 }
-.bg2{
+.bg4{
     position: absolute;
     width: 550px;
     height: 375px;
@@ -231,11 +231,70 @@ img{
     background: #000;
     margin-left: 60px;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 80px;
 
 }
 
 .schoolcere-cont {
+    height: 400px;
+    color: rgba(0, 0, 0, 0.74);
+    font-family: Roboto;
+    font-size: 29px;
+    font-weight: 200;
+    line-height: normal;
+    margin-right: 150px;} 
+
+/* ------------------------------------------------------------------------------------------------- */
+
+.school-ID {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+    flex-direction: row-reverse;
+    
+
+}
+.bg6{
+    position: absolute;
+    width: 484px;
+    height: 448px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #E6DEC8;
+    z-index: 0;
+    margin-top: 50px;
+
+}
+
+.img_schoolid{
+    width: 379px;
+    height: 402px;
+    flex-shrink: 0;
+    aspect-ratio: 379/402;
+    border-radius: 40px;
+    object-fit: cover;
+    line-height: 0;
+    border-radius: 40px;
+    position: relative;
+    padding: 2%;
+    z-index: 1;
+    display: block;
+    flex-direction: row-reverse;
+    margin-top: 55px;
+}
+
+.school-ID_line{
+    width: 1020px;
+    height: 3px;
+    background: #000;
+    margin-left: 60px;
+    margin-right: auto;
+    margin-top: 80px;
+
+}
+
+.school-ID-cont {
     height: 400px;
     color: rgba(0, 0, 0, 0.74);
     font-family: Roboto;
